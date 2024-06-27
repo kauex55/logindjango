@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>    
+    {% extends '_layout1.html' %} {# herda tudo que já tem em _layout1.html #}
+
+    {% block head_title %}
+        Recuperação Django
+    {% endblock %}
+    
+    {% block content %} {# substitui  o bloco content em _layout1.html #}
+        <h1>{{ titulo }}</h1> {# variável a ser substituída #}
+    {% endblock %} {# fecha o bloco content #}
+</body>
+</html>
